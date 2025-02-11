@@ -3,9 +3,17 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Car__c.Brand__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Motorcycle__c.Brand__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Car__c-Car Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Motorcycle__c-Motorcycle Layout</layout>
     </layoutAssignments>
@@ -15,9 +23,22 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Car__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Motorcycle__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabVisibilities>
+        <tab>Car__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Motorcycle__c</tab>
         <visibility>DefaultOn</visibility>
