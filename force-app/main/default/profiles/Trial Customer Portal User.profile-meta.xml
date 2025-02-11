@@ -3,12 +3,24 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Car__c.Brand__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Motorcycle__c.Brand__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Car__c-Car Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Motorcycle__c-Motorcycle Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>Car__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Motorcycle__c</tab>
         <visibility>DefaultOn</visibility>
